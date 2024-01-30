@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.alert-noti-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.noti-card {
+  display: flex;
+
+  /* border: 2px solid #64748b; */
+  /* width: 500px; */
+  /* margin: 10px; */
+  /* padding: 10px; */
+}
+.icons {
+  /* margin-top: 6px; */
+  /* margin-left: 6px; */
+}
+.noti h1,
+p {
+  margin: 0px;
+  padding: 0px;
+  /* margin-left: 10px; */
+}
+
+.noti h1 {
+  font-size: 24px;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+.cross-icon {
+  /* display: flex; */
+  margin-left: auto;
+  align-self: center;
+  margin-right: 10px;
+}
